@@ -21,7 +21,7 @@ jobs:
         with:
           version: '0.16.1'
       - name: ${{ matrix.dir }}-yaml-validation
-        uses: sawood14012/openshift-yaml-validate-action@v1.1
+        uses: sawood14012/openshift-yaml-validate-action@v1.2
         with:
           files: ${{ matrix.dir }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
